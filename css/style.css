@@ -1,5 +1,8 @@
 body {
   background-color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
 .header {
@@ -8,12 +11,91 @@ body {
   justify-content: space-between;
   padding: 0px 40px 0px 40px;
   color: white;
-  font-weight: bold;
+  font-weight: 300;
+  margin: 0 1em;
+}
+
+.header__name{
+
+}
+
+/* Hero */
+
+.hero{
+  background-color: #262626;
+  padding: 4em;
+  margin: 0 1em;
+}
+
+.hero__wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero__description h1{
+  margin: 0 0 1em 0;
+  font-size: 3em;
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,91,0,1) 0%, rgba(255,203,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__description h3{
+  margin: 0.4em 0;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.hero__description button{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,91,0,1) 0%, rgba(255,203,0,1) 100%);
+  font-size: 1.3em;
+  /* font-weight: bold; */
+  color: white;
+  padding: 0.7em;
+  border: unset;
+}
+
+/* End Hero */
+
+/* About Me */
+
+.about_me{
+  margin: 3em 1em;
+  background-color: #262626;
+}
+
+.about_me_wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.about_me_text_container{
+  padding: 0 3em 0 4em;
+}
+
+.about_me_text_container h1{
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,91,0,1) 0%, rgba(255,203,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: lighter;
+}
+
+.about_me_text_container h2{
+  font-size: 3em;
+}
+
+.about_me_text_container p{
+  font-size: 1em !important;
+}
+
+.about_me_image_container img{
+  width: 55em;
+  height: 30em;
 }
 
 .menu {
   display: flex;
-
 }
 
 .menu p {
